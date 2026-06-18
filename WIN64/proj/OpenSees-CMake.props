@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    Shared link settings for OpenFresco Release-CMake|x64 builds.
+    Expects a sibling OpenSees CMake build at ../../../OpenSees/build.
+    Host executable: $(OpenSeesBinDir)\OpenSeesFresco.exe (build CMake target OpenSeesFresco).
+  -->
+  <PropertyGroup Label="UserMacros">
+    <OpenSeesRoot Condition="'$(OpenSeesRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\OpenSees</OpenSeesRoot>
+    <OpenSeesBuildRoot Condition="'$(OpenSeesBuildRoot)' == ''">$(OpenSeesRoot)\build</OpenSeesBuildRoot>
+    <OpenSeesLibDir Condition="'$(OpenSeesLibDir)' == ''">$(OpenSeesBuildRoot)\lib</OpenSeesLibDir>
+    <OpenSeesBinDir Condition="'$(OpenSeesBinDir)' == ''">$(OpenSeesBuildRoot)\bin-fresco</OpenSeesBinDir>
+    <IntelOneAPIRoot Condition="'$(IntelOneAPIRoot)' == ''">C:\Program Files (x86)\Intel\oneAPI</IntelOneAPIRoot>
+    <MKLLibDir Condition="'$(MKLLibDir)' == ''">$(IntelOneAPIRoot)\mkl\latest\lib\intel64</MKLLibDir>
+    <IntelFortranLibDir Condition="'$(IntelFortranLibDir)' == ''">$(IntelOneAPIRoot)\compiler\latest\lib\intel64_win</IntelFortranLibDir>
+    <OpenFrescoLibDir Condition="'$(OpenFrescoLibDir)' == ''">$(MSBuildThisFileDirectory)..\lib</OpenFrescoLibDir>
+    <TclLibDir Condition="'$(TclLibDir)' == ''">C:\Program Files\Tcl\lib</TclLibDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-CMake|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OpenSeesRoot)\SRC;$(OpenSeesRoot)\SRC\api;C:\Program Files\Tcl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_RELIABILITY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ARPACK.lib;SUPERLU.lib;UMFPACK.lib;AMD.lib;CSPARSE.lib;ITPACK.lib;tet.lib;triangle.lib;OPS_Material_f.lib;OPS_Material_nD_Feap_f.lib;OPS_Material_Uniaxial_Drain_f.lib;OPS_SysOfEqn_f.lib;mkl_intel_lp64.lib;mkl_sequential.lib;mkl_core.lib;tcl86t.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OpenSeesLibDir);$(MKLLibDir);$(IntelFortranLibDir);$(OpenFrescoLibDir);$(TclLibDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+</Project>
