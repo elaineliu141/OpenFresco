@@ -94,7 +94,7 @@
       <PreprocessorDefinitions>_WIN32;WIN32;PLATFORM_WIN;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\..\src\interpreter\tcl;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src\interpreter\tcl;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <OmitFramePointers />
@@ -126,7 +126,7 @@
       <PreprocessorDefinitions>_WIN32;WIN32;PLATFORM_WIN;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\..\src\interpreter\tcl;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src\interpreter\tcl;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <StringPooling>true</StringPooling>

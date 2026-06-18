@@ -4,6 +4,9 @@
     Shared link settings for OpenFresco Release-CMake|x64 builds.
     Expects a sibling OpenSees CMake build at ../../../OpenSees/build.
     Host executable: $(OpenSeesBinDir)\OpenSeesFresco.exe (build CMake target OpenSeesFresco).
+
+    Path overrides (no file edit): pass /p:MKLLibDir=... /p:IntelFortranLibDir=... to msbuild,
+    or set the same MSBuild properties in Visual Studio before building.
   -->
   <PropertyGroup Label="UserMacros">
     <OpenSeesRoot Condition="'$(OpenSeesRoot)' == ''">$(MSBuildThisFileDirectory)..\..\..\OpenSees</OpenSeesRoot>
@@ -11,8 +14,9 @@
     <OpenSeesLibDir Condition="'$(OpenSeesLibDir)' == ''">$(OpenSeesBuildRoot)\lib</OpenSeesLibDir>
     <OpenSeesBinDir Condition="'$(OpenSeesBinDir)' == ''">$(OpenSeesBuildRoot)\bin-fresco</OpenSeesBinDir>
     <IntelOneAPIRoot Condition="'$(IntelOneAPIRoot)' == ''">C:\Program Files (x86)\Intel\oneAPI</IntelOneAPIRoot>
-    <MKLLibDir Condition="'$(MKLLibDir)' == ''">$(IntelOneAPIRoot)\mkl\latest\lib\intel64</MKLLibDir>
-    <IntelFortranLibDir Condition="'$(IntelFortranLibDir)' == ''">$(IntelOneAPIRoot)\compiler\latest\lib\intel64_win</IntelFortranLibDir>
+    <!-- OneAPI 2025.x: libs live directly under ...\lib (no intel64 subfolder). -->
+    <MKLLibDir Condition="'$(MKLLibDir)' == ''">$(IntelOneAPIRoot)\mkl\latest\lib</MKLLibDir>
+    <IntelFortranLibDir Condition="'$(IntelFortranLibDir)' == ''">$(IntelOneAPIRoot)\compiler\latest\lib</IntelFortranLibDir>
     <OpenFrescoLibDir Condition="'$(OpenFrescoLibDir)' == ''">$(MSBuildThisFileDirectory)..\lib</OpenFrescoLibDir>
     <TclLibDir Condition="'$(TclLibDir)' == ''">C:\Program Files\Tcl\lib</TclLibDir>
   </PropertyGroup>

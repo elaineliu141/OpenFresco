@@ -95,7 +95,7 @@
       <ConformanceMode>true</ConformanceMode>
       <OmitFramePointers />
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -129,7 +129,7 @@
       <OmitFramePointers />
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>

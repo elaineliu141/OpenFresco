@@ -94,7 +94,7 @@
       </SDLCheck>
       <PreprocessorDefinitions>_WIN32;WIN32;PLATFORM_WIN;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\dSpace;..\..\..\src\experimentalControl\MTSCsi;..\..\..\src\experimentalControl\NIEseries;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSignalFilter;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\dSpace;..\..\..\src\experimentalControl\MTSCsi;..\..\..\src\experimentalControl\NIEseries;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSignalFilter;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
@@ -126,7 +126,7 @@
       </SDLCheck>
       <PreprocessorDefinitions>_WIN32;WIN32;PLATFORM_WIN;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\dSpace;..\..\..\src\experimentalControl\MTSCsi;..\..\..\src\experimentalControl\NIEseries;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSignalFilter;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalControl\dSpace;..\..\..\src\experimentalControl\MTSCsi;..\..\..\src\experimentalControl\NIEseries;..\..\..\src\experimentalControl\SCRAMNet;..\..\..\src\experimentalControl\SCRAMNetGT;..\..\..\src\experimentalControl\xPCtarget;..\..\..\src\experimentalControlPoint;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSignalFilter;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers />

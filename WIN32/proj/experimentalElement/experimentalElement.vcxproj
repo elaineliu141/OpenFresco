@@ -93,7 +93,7 @@
       </SDLCheck>
       <PreprocessorDefinitions>_WIN32;WIN32;PLATFORM_WIN;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -125,7 +125,7 @@
       </SDLCheck>
       <PreprocessorDefinitions>_WIN32;WIN32;PLATFORM_WIN;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files (x86)\OpenSSL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\src;..\..\..\src\experimentalControl;..\..\..\src\experimentalElement;..\..\..\src\experimentalRecorder\response;..\..\..\src\experimentalSetup;..\..\..\src\experimentalSignalFilter;..\..\..\src\experimentalSite;..\..\..\src\experimentalTangentStiff;..\..\..\src\openseesCore;..\..\..\src\openseesExtra;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <StringPooling>true</StringPooling>
